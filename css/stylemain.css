@@ -6,5 +6,5 @@
   box-sizing: border-box;
 }
 body {
-  background-image: url(mountains.png);
+  background: url(mountains.png) no-repeat;
 }
