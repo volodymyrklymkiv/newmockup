@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("../img/alps.jpg");
+  background-size: 100% 700px;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+}
+nav li {
+    float: left;
+    list-style-type: none;
+    font-size: 20px;
+}
+nav {
+    padding-left:20px;
+}
+li a {
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+}
+li a:hover {
+    cursor: pointer;
+    color: #7b2828;
+    transition: .3s;
+}
+li {
+    text-shadow: 1px 1px 2px black, 0 0 1em #7b2828;
+}
+header {
+    margin-top: 30px;
+}
+h3 {
+    width: 12%;
+    border: 1px solid white;
+    margin: 0px 0 0 1150px;
+    border-radius: 20%;
+    padding: 10px 0;
+}
+h3:hover {
+    cursor: pointer;
+    color: #7b2828;
+    border-color: #7b2828;
+    transition: .3s;
+}
+td {
+  font-weight: bold;
+  font-size: 30px;
+  width: 400px;
+  text-shadow: 3px 3px 6px black, 0 0 1em #7b2828;
+}
+table {
+  margin-top: 50px;
+}
