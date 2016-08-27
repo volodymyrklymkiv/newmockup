@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 body {
-  background-image: url("../img/alps.jpg");
+  background-image: url("../img/alpswinter.jpg");
   background-size: 100% 700px;
   background-repeat: no-repeat;
   text-align: center;
@@ -48,19 +48,3 @@ h3:hover {
     color: #7b2828;
     border-color: #7b2828;
     transition: .3s;
-}
-th {
-  font-weight: bold;
-  font-size: 30px;
-  width: 400px;
-  text-shadow: 3px 3px 6px black, 0 0 1em #7b2828;
-}
-table {
-  margin-top: 50px;
-}
-td {
-  text-align: center;
-  font-size: 20px;
-  text-shadow: 3px 3px 6px black, 0 0 1em #7b2828;
-  padding: 50px 30px 0 30px;
-}
