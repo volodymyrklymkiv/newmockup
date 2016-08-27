@@ -90,7 +90,6 @@ font-style: italic;
     height: 500px;
 }
 img {
-    margin: 20px;
     opacity: 0.8;
     -webkit-transition: all 1s ease;
      -moz-transition: all 1s ease;
@@ -100,5 +99,34 @@ img {
           border: 1px solid #7b2828;
 }
 img:hover {
-    -webkit-filter: contrast(125%);
+    -webkit-filter: contrast(150%);
+}
+.cocktail {
+    position: absolute;
+    left: 700px;
+}
+.competition2 {
+    position: absolute;
+    top: 450px;
+    right: 350px;
+}
+.competition {
+    position: absolute;
+    left: 600px;
+    top: 300px;
+}
+.dianasquare {
+    position: absolute;
+    top: 100px;
+    left: 350px;
+}
+.masochcafe {
+    position: absolute;
+    top: 350px;
+    left: 400px;
+}
+.rocknrollpicassoclub {
+    position: absolute;
+    left: 120px;
+    top: 460px;
 }
