@@ -7,7 +7,9 @@
 }
 body {
   background-image: url("../img/alpswinter.jpg");
-  background-size: 100% 700px;
+  background-size:  100% 100%;
+  -webkit-background-size: 100% 100%;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   text-align: center;
   color: white;
@@ -39,7 +41,7 @@ header {
 h3 {
     width: 12%;
     border: 1px solid white;
-    margin: 0px 0 0 1150px;
+    margin: 0 0 0 80%;
     border-radius: 20%;
     padding: 10px 0;
 }
@@ -66,7 +68,7 @@ h2 {
     font-size: 40px;
 }
 input, button {
-    width: 500px;
+    width: 350px;
     height: 30px;
     opacity: 0.5;
     box-shadow: 3px 3px 6px black, 0 0 1em #7b2828;
@@ -74,7 +76,7 @@ input, button {
     border-color: #7b2828;
 }
 textarea {
-    width: 500px;
+    width: 350px;
     height: 300px;
     opacity: 0.5;
     box-shadow: 3px 3px 6px black, 0 0 1em #7b2828;

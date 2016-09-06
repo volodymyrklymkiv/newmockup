@@ -7,12 +7,15 @@
 }
 body {
   background-image: url("../img/mountains.png");
-  background-size: 100% 700px;
+  background-size: cover;
+  -webkit-background-size:cover;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   text-align: center;
   color: white;
 }
 img {
+    margin: 0 auto;
     width: 200px;
     height: 300px;
     -webkit-filter: grayscale(75%);
@@ -23,7 +26,7 @@ img {
     opacity: 0.8;
 }
 section {
-    padding: 150px 300px 0;
+    margin: 9.02% 0 0 ;
 }
 h1, h2 {
     padding-top: 15px;
@@ -35,7 +38,7 @@ h2 {
 h3 {
     width: 12%;
     border: 1px solid white;
-    margin: 0px 0 0 1150px;
+    margin: 0 0 0 80%;
     border-radius: 20%;
     padding: 10px 0;
 }
