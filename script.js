@@ -24,6 +24,8 @@ $(document).ready(function(){
 	$('img').dblclick(function(){
 			$(this).css('-webkit-transform' , 'rotate(0)');
 			$(this).css('-moz-transform' , 'rotate(0)');
+				$(this).css('-webkit-transform' , 'rotate(0)');
+			$(this).css('-moz-transform' , 'rotate(0)');
 	});
 							   
 });
