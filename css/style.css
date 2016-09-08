@@ -65,6 +65,7 @@ li a:hover {
     cursor: pointer;
     color: #7b2828;
     transition: .3s;
+    animated: zoomInDown;
 }
 p,h1 {
     text-shadow: 3px 3px 6px black, 0 0 1em #7b2828;

@@ -44,6 +44,7 @@ h3 {
     margin: 0 0 0 80%;
     border-radius: 20%;
     padding: 10px 0;
+    float: right;
 }
 h3:hover {
     cursor: pointer;
@@ -52,9 +53,9 @@ h3:hover {
     transition: .3s;
 }
 img {
-    width: 100px;
-    height: 100px;
-    border-radius: 80%;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
     opacity: 0.8;
 }
 aside {
@@ -67,24 +68,55 @@ h2 {
     text-shadow: 3px 3px 6px black, 0 0 1em #7b2828;
     font-size: 40px;
 }
+.popup {
+	position: absolute;
+	height:100%;
+	width:100%;
+	top:0;
+	left:0;
+	display:none;
+}
+
+	.popup_bg {
+		background:rgba(0,0,0,0.4);
+		position:absolute;
+		z-index:1;
+		height:100%;
+		width:100%;
+	}
+	
+	
+	.form {
+		position: relative;
+		margin:4px auto;
+		z-index:2;
+		width:300px;
+		padding:40px 20px;
+		background: #4e4e4e;
+		opacity: 0.7;
+		border:1px solid #666666;
+		border-radius:20px;
+		box-shadow:0 0 2px rgba(0,0,0,0.5);
+		margin-top: 200px;
+	}
+
+		.form input {
+			width:96%;
+			padding:5px 2%;
+			margin:10px 0;
+			border-radius:4px;
+		}
+		textarea {
+		    width: 96%;
+		    height: 100px;
+		}
 input, button {
-    width: 350px;
-    height: 30px;
-    opacity: 0.5;
-    box-shadow: 3px 3px 6px black, 0 0 1em #7b2828;
-    border: 3px solid black;
+    box-shadow: 2px 2px 4px black, 0 0 1em #7b2828;
+    border: 2px solid black;
     border-color: #7b2828;
 }
 textarea {
-    width: 350px;
-    height: 300px;
-    opacity: 0.5;
-    box-shadow: 3px 3px 6px black, 0 0 1em #7b2828;
-    border: 3px solid black;
+    box-shadow: 2px 2px 4px black, 0 0 1em #7b2828;
+    border: 2px solid black;
     border-color: #7b2828;
-}
-form {
-    position: fixed;
-    bottom: 50px;
-    right: 50px;
 }

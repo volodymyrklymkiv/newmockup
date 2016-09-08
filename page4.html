@@ -1,11 +1,15 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style4.css" >
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="js/popup.js"></script>
+    <link rel="stylesheet" href="css/style4.css">
     <title>Volodymyr Klymkiv</title>
 </head>
+
 <body>
     <header>
         <nav>
@@ -13,31 +17,44 @@
                 <li><a href="page1.html">Main</a></li>
                 <li><a href="page2.html">About me</a></li>
                 <li><a href="page3.html">Work experience and skills</a></li>
-                <li><a href="page4.html">Contact me</a></li>
+                <li><a onClick="showPopup();">Contact me</a></li>
+                <li class="facebook"><a class="facebook" href="https://www.facebook.com/profile.php?id=100010577145563"><img src="img/facebook.png" alt="Facebook"></a></li>
+                <li><a href="https://vk.com/mr.klem"><img src="img/vk-logo.png" alt="VK"></a></li>
             </ul>
         </nav>
         <h3>Hire me now</h3>
     </header>
     <article>
+        <div></div>
         <h2>Contact me</h2>
         <aside>
             <ul>
-                <li><a href="https://www.facebook.com/profile.php?id=100010577145563"><img src="img/facebook.png" alt="Facebook"></a></li>
-                <li><a href="https://vk.com/mr.klem"><img src="img/vk-logo.png" alt="VK"></a></li>
-                <li><a href=""><img src="img/skype.png" alt="Skype"></a></li>
-                <li><a href=""><img src="img/gmail.png" alt="E-mail"></a></li>
+                <li>
+                    <a href="https://www.facebook.com/profile.php?id=100010577145563"><img src="img/facebook.png" alt="Facebook"></a>
+                </li>
+                <li>
+                    <a href="https://vk.com/mr.klem"><img src="img/vk-logo.png" alt="VK"></a>
+                </li>
+                <li>
+                    <a href=""><img src="img/skype.png" alt="Skype"></a>
+                </li>
+                <li>
+                    <a href=""><img src="img/gmail.png" alt="E-mail"></a>
+                </li>
             </ul>
         </aside>
-        <div>
-            <form id="google" method="post" action="https://formspree.io/volodymyr.klymkiv@gmail.com">
-                  <input type="text" name="name" placeholder="Your name" required><br>
-                  <input type="email" name="email" placeholder="E-mail" required><br>
-                  <textarea name="message" placeholder="Message to me" required></textarea><br>
-                  <button id="send" type="submit">
-                    <strong>Send</strong>
-                  </button>
+        <div class="popup">
+            <div class="popup_bg"></div>
+            <div class="form">
+            <form method="post" action="https://formspree.io/volodymyr.klymkiv@gmail.com">
+                <input type="text" name="name" placeholder="Your name">
+				<input type="email" name="email" placeholder="Your email">
+				<textarea name="message" placeholder="Message to me"required></textarea>
+				<input type="submit" value="Send">
             </form>
+            </div>
         </div>
     </article>
 </body>
+
 </html>
