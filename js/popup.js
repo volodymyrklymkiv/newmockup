@@ -1,11 +1,11 @@
-﻿$(document).ready(function() { // Ждём загрузки страницы
+﻿$(document).ready(function() { 
 	
-	$(".popup_bg").click(function(){	// Событие клика на затемненный фон	   
-		$(".popup").fadeOut(800);	// Медленно убираем всплывающее окно
+	$(".popup_bg").click(function(){	   
+		$(".popup").fadeOut(800);
 	});
 
 });
 
 function showPopup() {
-	$(".popup").fadeIn(800); // Медленно выводим изображение
+	$(".popup").fadeIn(800);
 }

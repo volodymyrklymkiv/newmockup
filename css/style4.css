@@ -23,7 +23,7 @@ nav {
     padding-left:20px;
 }
 li a {
-    padding: 15px;
+    padding: 14px;
     text-decoration: none;
     color: white;
 }
@@ -118,4 +118,14 @@ textarea {
     box-shadow: 2px 2px 4px black, 0 0 1em #7b2828;
     border: 2px solid black;
     border-color: #7b2828;
+}
+.vk {
+    opacity: 0.5;
+}
+img {
+    width: 40px;
+    height: 40px;  
+}
+.gmail {
+    padding-left: 0px;
 }

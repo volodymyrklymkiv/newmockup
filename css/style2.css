@@ -146,3 +146,13 @@ img
 	position: relative;
 	margin:25px 0 0 15px;
 }
+#arrow {
+    padding: 0;
+    background: none;
+    border: none;
+    box-shadow: none;
+    margin-right: 220px;
+    /*margin-bottom: 10px;*/
+    width: 80px;
+    height: 80px;
+}
