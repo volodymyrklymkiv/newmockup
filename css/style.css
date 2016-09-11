@@ -13,6 +13,7 @@ body {
   background-repeat: no-repeat;
   text-align: center;
   color: white;
+  font-family: 'Architects Daughter', cursive;
 }
 img {
     margin: 0 auto;
@@ -36,17 +37,7 @@ h2 {
     padding-bottom: 10px;
 }
 h3 {
-    width: 12%;
-    border: 1px solid white;
-    margin: 0 0 0 80%;
-    border-radius: 20%;
-    padding: 10px 0;
-}
-h3:hover {
-    cursor: pointer;
-    color: #7b2828;
-    border-color: #7b2828;
-    transition: .3s;
+    font-size: 25px;
 }
 nav li {
     float: left;
@@ -78,4 +69,8 @@ img:hover {
 }
 header {
     margin-top: 30px;
+}
+div
+{
+  margin-top: 8%;
 }

@@ -13,6 +13,7 @@ body {
   background-repeat: no-repeat;
   text-align: center;
   color: white;
+  font-family: 'Architects Daughter', cursive;
 }
 nav li {
     float: left;
@@ -39,17 +40,7 @@ header {
     margin-top: 30px;
 }
 h3 {
-    width: 12%;
-    border: 1px solid white;
-    margin: 0 0 0 80%;
-    border-radius: 20%;
-    padding: 10px 0;
-}
-h3:hover {
-    cursor: pointer;
-    color: #7b2828;
-    border-color: #7b2828;
-    transition: .3s;
+    font-size: 25px;
 }
 h2 {
     text-shadow: 3px 3px 6px black, 0 0 1em #7b2828;
@@ -58,7 +49,7 @@ h2 {
 #lefth {
      text-shadow: 3px 3px 6px black, 0 0 1em #7b2828;
     font-size: 30px;
-    padding: 50px 0 50px 50px;
+    padding: 10px 0 50px 50px;
 }
 .left { 
 text-shadow: 3px 3px 6px black, 0 0 1em #7b2828;
@@ -79,7 +70,7 @@ font-style: italic;
 #righth {
     text-shadow: 3px 3px 6px black, 0 0 1em #7b2828;
     font-size: 30px;
-    padding: 50px 50px 50px 0px;
+    padding: 10px 50px 50px 0px;
 }
 .right {
     text-shadow: 3px 3px 6px black, 0 0 1em #7b2828;
@@ -109,6 +100,8 @@ img:hover {
 .cocktail {
     position: absolute;
     left: 600px;
+    width:640px;
+    height:430px;
 }
 .competition2 {
     position: absolute;
@@ -155,4 +148,12 @@ img
     /*margin-bottom: 10px;*/
     width: 80px;
     height: 80px;
+}
+.drag{
+    position: absolute;
+    top: 30%;
+    left: 40%
+}
+#dragthem {
+    font-size: 40px;
 }

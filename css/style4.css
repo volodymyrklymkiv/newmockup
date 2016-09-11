@@ -13,6 +13,7 @@ body {
   background-repeat: no-repeat;
   text-align: center;
   color: white;
+  font-family: 'Architects Daughter', cursive;
 }
 nav li {
     float: left;
@@ -119,20 +120,32 @@ textarea {
     border: 2px solid black;
     border-color: #7b2828;
 }
-.vk {
-    opacity: 0.5;
-}
 img {
 width:350px;
 height: 350px;
 }
-.facebook {
+.gmail {
     position: absolute;
     left: 5%;
     top: 10%;
 }
-.gmail {
+.facebook {
     position: absolute;
     left: 38%;
-    top: 25%;
+    top: 15%;
+}
+.in {
+    position: absolute;
+    left: 70%;
+    bottom: 30%;
+}
+.instagram {
+    position: absolute;
+    left: 20%;
+    top: 40%;
+}
+.vk{
+    position: absolute;
+    top:45%;
+    left: 55%;
 }
