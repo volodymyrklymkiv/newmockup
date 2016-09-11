@@ -123,9 +123,16 @@ textarea {
     opacity: 0.5;
 }
 img {
-    width: 40px;
-    height: 40px;  
+width:350px;
+height: 350px;
+}
+.facebook {
+    position: absolute;
+    left: 5%;
+    top: 10%;
 }
 .gmail {
-    padding-left: 0px;
+    position: absolute;
+    left: 38%;
+    top: 25%;
 }
