@@ -14,6 +14,7 @@ body {
   text-align: center;
   color: white;
   font-family: 'Architects Daughter', cursive;
+  max-width: 1600px;
 }
 nav li {
     float: left;
@@ -47,6 +48,7 @@ th {
   font-size: 30px;
   width: 400px;
   text-shadow: 3px 3px 6px black, 0 0 1em #7b2828;
+  text-align: center;
 }
 table {
   margin-top: 50px;
@@ -76,4 +78,34 @@ progress {
  }
  ::-webkit-progress-value {
     background: #947979;
+ }
+ .progress {
+     width: 500px;
+     height: 20px;
+     background-color: #7d7d7d;
+     border: 2px solid black;
+ }
+ .progress-bar {
+     background-color: #7d7d7d;
+ }
+ .container3 {
+     opacity: 0.9;
+     position: absolute;
+     top: 35%;
+     left: 61%;
+ }
+ .container1 {
+     opacity: 0.9;
+     position: absolute;
+     top: 58%;
+     left: 61%;
+ }
+ .container2 {
+     opacity: 0.9;
+     position: absolute;
+     left: 61%;
+     top: 80%;
+ }
+ a:hover {
+     text-decoration: none;
  }
